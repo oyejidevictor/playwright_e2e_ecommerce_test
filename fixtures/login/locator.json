@@ -1,0 +1,14 @@
+{
+  "emailInput": "#email",
+  "passwordInput": "#password",
+  "loginButton": "button[type='submit']",
+  "eyeBtn": "button[type='button']",
+  "toastError": "[data-sonner-toast][data-type='error']",
+  "logoutDialog": "h2[id^='radix-_r'][data-slot='dialog-title']",
+  "confirmText": "Are you sure you want to log out?",
+  "closeBtn": "//button[contains(text(),'Close')]",
+  "confirmLogoutBtn": "//button[normalize-space()='Logout']",
+  "profileDropdown": ".caret",
+  "logoutBtn": "button[data-slot='dialog-trigger']",
+  "toastErrorMsg": "Username matched but password is incorrect."
+}

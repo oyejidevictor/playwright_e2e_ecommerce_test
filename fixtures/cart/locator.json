@@ -1,0 +1,17 @@
+{
+  "products": ".flex.flex-col.gap-3.relative.group",
+  "addToCart": "body > div:nth-child(4) > div:nth-child(2) > div:nth-child(2) > div:nth-child(2) > div:nth-child(5) > button:nth-child(2)",
+  "toast": "li[data-sonner-toast]",
+  "cartBadge": ".bg-qa-clr",
+  "cartIcon": "//*[name()='path' and contains(@d,'M528.12 30')]",
+  "quantityValue": ".border.rounded.px-3.py-1.text-gray-500",
+  "decreaseQuantityBtn": "//button[normalize-space()='-']",
+  "increaseQuantityBtn": "body > div:nth-child(4) > div:nth-child(2) > div:nth-child(1) > div:nth-child(2) > div:nth-child(1) > div:nth-child(2) > div:nth-child(2) > button:nth-child(3)",
+  "price": "body div div div div div:nth-child(1) div:nth-child(3) p:nth-child(2)",
+  "totalPrice": "body div div div div div:nth-child(1) div:nth-child(4) p:nth-child(2)",
+  "removeBtn": "body > div:nth-child(44) > div:nth-child(2) > button:nth-child(2)",
+  "closeBtn": "//button[contains(text(),'Close')]",
+  "contShopBtn": "button[class='inline-flex font-bold items-center gap-2 text-black cursor-pointer']",
+  "removeTextBtn": ".text-red-500.text-sm.mt-1.cursor-pointer",
+  "removeDialog": "h2[id^='radix-_r'][data-slot='dialog-title']"
+}
