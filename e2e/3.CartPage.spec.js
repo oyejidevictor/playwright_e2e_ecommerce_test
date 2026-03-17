@@ -5,7 +5,6 @@ import { CartPage } from "../support/pageObjects/CartPage.js";
 test("Cart Page Test", async ({ page }) => {
   const login = new LoginPage(page);
   await login.gotoHomePage();
-  
   const cart = new CartPage(page);
   await cart.addAnItem();
   await cart.removeAnItem();

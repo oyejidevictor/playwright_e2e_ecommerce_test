@@ -1,9 +1,10 @@
 {
   "username": ".user-name",
-  "products": ".flex.flex-col.gap-3.relative.group",
-  "favBtn": "div[class='container py-3 mb-10'] div:nth-child(1) span:nth-child(1) button:nth-child(1) svg",
-  "productTitle": "div[class='container py-3 mb-10'] div:nth-child(1) a:nth-child(2)",
-  "productDescription": "div[class='container py-3 mb-10'] div:nth-child(1) a:nth-child(3)",
-  "productPrice": "body > div:nth-child(4) > div:nth-child(2) > div:nth-child(2) > div:nth-child(1) > div:nth-child(5)",
-  "addToCartBtn": "body > div:nth-child(4)  div:nth-child(2) > div:nth-child(2) > div:nth-child(1) > div:nth-child(5) > button:nth-child(2)"
+  "products": ".products .flex.flex-col.gap-3.relative.group",
+  "productTitle": "a.text-lg",
+  "productPrice": ".productsspan.text-lg",
+  "addToCartBtn": "body > div:nth-child(4)  div:nth-child(2) > div:nth-child(2) > div:nth-child(1) > div:nth-child(5) > button:nth-child(2)",
+  "orderBtn" : "button[role='combobox']",
+  "searchField" : "input[data-slot='command-input']",
+  "searchResult" : "div[data-slot='command-item']"
 }

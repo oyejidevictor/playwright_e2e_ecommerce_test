@@ -13,8 +13,8 @@ import { defineConfig, devices } from '@playwright/test';
  * @see https://playwright.dev/docs/test-configuration
  */
 export default defineConfig({
-  // globalSetup: require.resolve('./config/global-setup.js'),
-  globalSetup: require.resolve('./support/base/BaseScreen.js'),
+  globalSetup: "./support/base/BaseScreen.js",
+  globalTeardown: "./support/base/deleteAuth.js",
   testDir: './e2e',
   /* Run tests in files in parallel */
   fullyParallel: false,
@@ -35,7 +35,7 @@ export default defineConfig({
     trace: 'on-first-retry',
     headless: false,
     viewport: { width: 1528, height: 800 },
-    // storageState: 'test_data/auth.json',
+    storageState: 'test_data/auth.json',
   },
 
   /* Configure projects for major browsers */

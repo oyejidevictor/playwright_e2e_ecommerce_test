@@ -1,5 +1,6 @@
 import { expect } from "@playwright/test";
 import locator from "../../fixtures/login/locator.json";
+import txt from "../../fixtures/login/txt.json";
 
 exports.LoginPage = class LoginPage {
   constructor(page) {
@@ -7,7 +8,7 @@ exports.LoginPage = class LoginPage {
   }
 
   async gotoHomePage() {
-    await this.page.goto("https://practice.qabrains.com/ecommerce");
+    await this.page.goto(txt.url);
   }
 
   async logout() {
@@ -32,7 +33,7 @@ exports.LoginPage = class LoginPage {
       state: "visible",
     });
     expect(this.page.locator(locator.toastError)).toHaveText(
-      locator.toastErrorMsg,
+      txt.toastErrorMsg,
     );
   }
 
@@ -46,7 +47,7 @@ exports.LoginPage = class LoginPage {
       "text",
     );
     await this.page.click(locator.loginButton);
-    await expect(this.page).toHaveURL("https://practice.qabrains.com/ecommerce"); 
+    await expect(this.page).toHaveURL(txt.url); 
   }
 
 };

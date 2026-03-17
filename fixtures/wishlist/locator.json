@@ -1,0 +1,14 @@
+{
+  "favIcon": "div[class='container py-3 mb-10'] div:nth-child(1) span:nth-child(1) button:nth-child(1) svg",
+  "favRedIcon": "//*[name()='path' and contains(@d,'M256 448l-')]",
+  "toast": "li[data-sonner-toast]",
+  "profileDropdown": ".caret",
+  "favBtn": "//div[contains(text(),'Favorites')]",
+  "product": "//a[normalize-space()='Sample Shirt Name']",
+  "decreaseQuantityBtn": "//button[contains(text(),'−')]",
+  "increaseQuantityBtn": "//button[normalize-space()='+']",
+  "quantityValue": "input[readonly].bg-gray-100",
+  "cartBadge": ".bg-qa-clr",
+  "backToProduct" : ".flex.items-center.gap-2.text-black.font-semibold.mb-8.cursor-pointer",
+  "contBtn" : "//a[normalize-space()='Continue Shopping']"
+}

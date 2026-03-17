@@ -9,14 +9,13 @@ exports.CartPage = class CartPage {
 
   async addAnItem() {
     await this.page.locator(locator.addToCart).click();
-    await this.page.waitForTimeout(1000);
+    await this.page.waitForSelector(locator.toast);
     await expect(this.page.locator(locator.toast)).toHaveText(txt.toastTxt);
-    await this.page.waitForTimeout(1000);
+    await this.page.waitForSelector(locator.cartBadge);
     await expect(this.page.locator(locator.cartBadge)).toHaveText("1");
   }
 
   async removeAnItem() {
-    await this.page.waitForTimeout(1000);
     await this.page.locator(locator.addToCart).click();
     await expect(this.page.locator(locator.cartBadge)).toBeHidden();
   }

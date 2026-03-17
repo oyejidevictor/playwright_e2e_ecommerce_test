@@ -9,6 +9,5 @@
   "closeBtn": "//button[contains(text(),'Close')]",
   "confirmLogoutBtn": "//button[normalize-space()='Logout']",
   "profileDropdown": ".caret",
-  "logoutBtn": "button[data-slot='dialog-trigger']",
-  "toastErrorMsg": "Username matched but password is incorrect."
+  "logoutBtn": "button[data-slot='dialog-trigger']"
 }

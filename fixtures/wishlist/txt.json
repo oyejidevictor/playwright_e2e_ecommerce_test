@@ -1,0 +1,8 @@
+{
+    "emptyFavTxt" : "You have no favorite products",
+    "addToCart" : "Add to Cart",
+    "productName" : "Sample Shirt Name",
+    "toastAddTxt" : "Added to favorites",
+    "toastAddToCart" : "Added to cart",
+    "toastRmvTxt" : "Removed from favorites"
+}

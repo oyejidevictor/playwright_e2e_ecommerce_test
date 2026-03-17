@@ -9,7 +9,7 @@
   "increaseQuantityBtn": "body > div:nth-child(4) > div:nth-child(2) > div:nth-child(1) > div:nth-child(2) > div:nth-child(1) > div:nth-child(2) > div:nth-child(2) > button:nth-child(3)",
   "price": "body div div div div div:nth-child(1) div:nth-child(3) p:nth-child(2)",
   "totalPrice": "body div div div div div:nth-child(1) div:nth-child(4) p:nth-child(2)",
-  "removeBtn": "body > div:nth-child(44) > div:nth-child(2) > button:nth-child(2)",
+  "removeBtn": "body > div:nth-child(35) > div:nth-child(2) > button:nth-child(2)",
   "closeBtn": "//button[contains(text(),'Close')]",
   "contShopBtn": "button[class='inline-flex font-bold items-center gap-2 text-black cursor-pointer']",
   "removeTextBtn": ".text-red-500.text-sm.mt-1.cursor-pointer",

@@ -1,0 +1,8 @@
+{
+    "url": "https://practice.qabrains.com/ecommerce",
+    "validEmail": "practice@qabrains.com",
+    "validPassword": "Password123",
+    "invalidEmail": "practice@qabrains.com",
+    "invalidPassword": "WrongPassword123",
+    "toastErrorMsg": "Username matched but password is incorrect."
+}

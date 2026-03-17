@@ -2,6 +2,6 @@
   "removeText": "Are you absolutely sure?",
   "emptyCartTxt": "Your cart is empty",
   "addToCart" : "Add to Cart",
-  "toastTxt" : "Added to Cart",
+  "toastTxt" : "Added to cart",
   "removeFromCart" : "Remove from Cart"
 }
